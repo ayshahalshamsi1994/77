@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AiAcademy - Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'aiacademy_app/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to AiAcademy</h1>
+    <a href="{% url 'login' %}">Login</a> | <a href="{% url 'register' %}">Register</a>
+</body>
+</html>
